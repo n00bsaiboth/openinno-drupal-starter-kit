@@ -82,6 +82,7 @@
         "drupal/view_unpublished": "^1.1",
         "drupal/warden": "^4.0@beta",
         "drupal/webform": "^6.2",
+        "drupal/yoast_seo": "^1.8",
         "drush/drush": "^12"
     }, 
     "require-dev": {
@@ -90,6 +91,7 @@
         "drupal/stage_file_proxy": "^2.1",
         "drupal/twig_tweak": "^3.2",
         "drupal/upgrade_status": "^4.0",
+        "joachim-n/composer-manifest": "^1.1",
         "kint-php/kint": "^3.3",
         "mglaman/composer-drupal-lenient": "^1.0",
         "mglaman/phpstan-drupal": "^1.2",
@@ -118,7 +120,8 @@
             "cweagans/composer-patches": true,
             "zaporylie/composer-drupal-optimizations": true,
             "oomphinc/composer-installers-extender": true,
-            "mglaman/composer-drupal-lenient": true
+            "mglaman/composer-drupal-lenient": true,
+            "joachim-n/composer-manifest": true
         },
         "sort-packages": true
     },
