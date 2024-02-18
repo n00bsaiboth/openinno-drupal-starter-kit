@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8de70618847566a5d9c4189be8898a7c",
+    "content-hash": "fe5f2601a4c229a63837766f9698c713",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7425,6 +7425,67 @@
                 "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
+            }
+        },
+        {
+            "name": "drupal/yoast_seo",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/yoast_seo.git",
+                "reference": "8.x-1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/yoast_seo-8.x-1.8.zip",
+                "reference": "8.x-1.8",
+                "shasum": "83eef12e887824bf51db07bcf844e0ef70f4eb9c"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10",
+                "drupal/metatag": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.8",
+                    "datestamp": "1671186804",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "bramtenhove",
+                    "homepage": "https://www.drupal.org/user/1549848"
+                },
+                {
+                    "name": "Kingdutch",
+                    "homepage": "https://www.drupal.org/user/1868952"
+                },
+                {
+                    "name": "Open Social",
+                    "homepage": "https://www.drupal.org/user/272162"
+                },
+                {
+                    "name": "robertragas",
+                    "homepage": "https://www.drupal.org/user/2723261"
+                },
+                {
+                    "name": "ronaldtebrake",
+                    "homepage": "https://www.drupal.org/user/2314038"
+                }
+            ],
+            "description": "Adds Real-time SEO page analysis and configuration.",
+            "homepage": "https://www.drupal.org/project/yoast_seo",
+            "support": {
+                "source": "https://git.drupalcode.org/project/yoast_seo"
             }
         },
         {
@@ -17585,6 +17646,50 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/upgrade_status"
             }
+        },
+        {
+            "name": "joachim-n/composer-manifest",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joachim-n/composer-manifest.git",
+                "reference": "95da909b377c69087c63fb2a17ef7a285f6f39b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joachim-n/composer-manifest/zipball/95da909b377c69087c63fb2a17ef7a285f6f39b2",
+                "reference": "95da909b377c69087c63fb2a17ef7a285f6f39b2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "symfony/yaml": "^3.4 || ^4.2 || ^5.4 || ^6.1"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0 || ^2.0",
+                "symfony/var-dumper": "^4.2"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "ComposerManifest\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ComposerManifest\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joachim Noreiko",
+                    "email": "joachim@107701.no-reply.drupal.org"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/joachim-n/composer-manifest/issues",
+                "source": "https://github.com/joachim-n/composer-manifest/tree/1.1.5"
+            },
+            "time": "2022-08-09T15:38:25+00:00"
         },
         {
             "name": "kint-php/kint",
