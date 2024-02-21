@@ -1,8 +1,40 @@
 name: openinno-drupal
 recipe: drupal10
+
 config:
   via: apache:2.4
   database: mariadb
-  composer_version: '^2'
+  composer_version: '2'
   php: '8.2'
+  xdebug: true
   webroot: web
+  config:
+    php: .vscode/php.ini
+
+services:
+  appserver:
+    overrides:
+      environment:
+        # support debugging Drush with XDEBUG.
+        ENVIRONMENT: "local"
+        PHP_IDE_CONFIG: "serverName=appserver"
+
+tooling:
+  phplint:
+    service: appserver
+    cmd: /app/vendor/bin/phplint
+  phpcs:
+    service: appserver
+    cmd: /app/vendor/bin/phpcs
+  phpstan:
+    service: appserver
+    cmd: /app/vendor/bin/phpstan
+  phpunit:
+    service: appserver
+    cmd: /app/vendor/bin/unit    
+
+env_file:
+  - .vscode/lando.env
+
+# Lando version.
+version: 3.20.8
