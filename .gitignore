@@ -3,7 +3,9 @@
 /vendor/
 /web/core/
 /web/modules/contrib/
-/web/themes/cpntrib/
+/web/themes/contrib/
+/web/modules/custom/
+/web/themes/custom/
 /web/profiles/contrib/
 /web/libraries/
 
@@ -39,7 +41,7 @@
 /web/sites/*/settings.lando.php
 
 # Ignore SQL (coming later, after first commit and deployment)
-# /sql/*
+/sql/*
 
 # Ignore tests logs
 /tests/
@@ -67,7 +69,9 @@
 # Ignore mac files
 .DS_STORE
 
-# Ignore links to gulp workflow files (coming later)
+# Ignore links to gulp workflow files and/or node_modules (coming later)
+/node_modules
+/web/*/node_modules
 
 # Ignore certificates (coming later)
 
