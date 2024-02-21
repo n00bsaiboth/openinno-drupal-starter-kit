@@ -39,7 +39,7 @@
 /web/sites/*/settings.lando.php
 
 # Ignore SQL (coming later, after first commit and deployment)
-/sql/*
+# /sql/*
 
 # Ignore tests logs
 /tests/
@@ -57,6 +57,9 @@
 !/.vscode/launch.json
 !/.vscode/extensions.json
 !/.vscode/*.code-snippets
+!/.vscode/openinno.code-workspace
+!/.vscode/php.ini
+!/.vscode/lando.env
 
 # Ignore DDEV configuration
 /.dded

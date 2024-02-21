@@ -96,6 +96,7 @@
         "mglaman/composer-drupal-lenient": "^1.0",
         "mglaman/phpstan-drupal": "^1.2",
         "oomphinc/composer-installers-extender": "^2.0",
+        "overtrue/phplint": "^9.1",
         "phpcompatibility/php-compatibility": "^9.3",
         "phpstan/extension-installer": "^1.3",
         "phpstan/phpstan": "^1.10",
