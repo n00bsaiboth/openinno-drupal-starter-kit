@@ -19,3 +19,12 @@ lando composer install
 
 lando db-import <from the sql folder>
 
+lando drush cim -y
+
+lando drush cr
+
+lando drush updb -y
+
+lando drush cr .
+
+Congratulations, you have a fresh D10 installation to play with.
