@@ -56,7 +56,7 @@
 !/.vscode/launch.json
 !/.vscode/extensions.json
 !/.vscode/*.code-snippets
-!/.vscode/openinno.code-workspace
+!/.vscode/openinno-drupal-starter-kit.code-workspace
 !/.vscode/php.ini
 !/.vscode/lando.env
 
