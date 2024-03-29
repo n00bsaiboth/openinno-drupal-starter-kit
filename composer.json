@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": ">8.1",
+        "php": ">8.2",
         "composer/installers": "*",
         "cweagans/composer-patches": "~1.7",
         "drupal/admin_toolbar": "^3.4",
@@ -23,10 +23,11 @@
         "drupal/better_exposed_filters": "^6.0",
         "drupal/block_field": "^1.0@RC",
         "drupal/calendar": "^1.0@beta",
+        "drupal/civicccookiecontrol": "^4.5",
         "drupal/config_ignore": "^3.2",
         "drupal/context": "^5.0@RC",
+        "drupal/cookiebot": "^1.0@alpha",
         "drupal/core-composer-scaffold": "^10",
-        "drupal/core-dev": "^10",
         "drupal/core-project-message": "^10",
         "drupal/core-recommended": "^10",
         "drupal/core-vendor-hardening": "^10",
@@ -38,6 +39,7 @@
         "drupal/entity_embed": "^1.5",
         "drupal/entity_reference_revisions": "^1.11",
         "drupal/entityqueue": "^1.7",
+        "drupal/eu_cookie_compliance": "^1.24",
         "drupal/facets": "^3.0@beta",
         "drupal/facets_block": "^2.0",
         "drupal/fast_404": "^3.2",
@@ -66,6 +68,7 @@
         "drupal/pathologic": "^2.0@alpha",
         "drupal/purge": "^3.5",
         "drupal/rabbit_hole": "^2.0@alpha",
+        "drupal/raven": "^5.0",
         "drupal/redirect": "^1.9",
         "drupal/redis": "^1.7",
         "drupal/scheduler": "^2.0",
@@ -86,6 +89,7 @@
         "drush/drush": "^12"
     }, 
     "require-dev": {
+        "drupal/core-dev": "^10",
         "drupal/devel": "^5.1",
         "drupal/devel_kint_extras": "^1.1",
         "drupal/stage_file_proxy": "^2.1",
