@@ -13,18 +13,18 @@ Clone the project on your local, run this command on your termimal, git clone gi
 
 Then, when you get docker and lando up and running, you need to give it the following commands, 
 
-lando start
+`lando start`
 
-lando composer install
+`lando composer install`
 
-lando db-import <from the sql folder>
+`lando db-import <from the sql folder>`
 
-lando drush cim -y
+`lando drush cim -y`
 
-lando drush cr
+`lando drush cr`
 
-lando drush updb -y
+`lando drush updb -y`
 
-lando drush cr .
+`lando drush cr` .
 
 Congratulations, you have a fresh D10 installation to play with.
