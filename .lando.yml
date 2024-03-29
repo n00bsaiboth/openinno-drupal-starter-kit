@@ -1,4 +1,4 @@
-name: openinno-drupal
+name: openinno-drupal-starter-kit
 recipe: drupal10
 
 config:

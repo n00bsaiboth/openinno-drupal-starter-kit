@@ -76,10 +76,10 @@
 .php-lint-cache
 
 # Ignore Documentation 
-# /doc/*
+/doc/*
 
 # Ignore SQL (coming later, after first commit and deployment)
-# /sql/*
+/sql/*
 
 
 # Ignore Drush configuration
