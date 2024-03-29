@@ -40,9 +40,6 @@
 /web/sites/*/settings.local.php
 /web/sites/*/settings.lando.php
 
-# Ignore SQL (coming later, after first commit and deployment)
-/sql/*
-
 # Ignore tests logs
 /tests/
 /web/sites/simpletest/
@@ -79,7 +76,11 @@
 .php-lint-cache
 
 # Ignore Documentation 
-/doc/*
+# /doc/*
+
+# Ignore SQL (coming later, after first commit and deployment)
+# /sql/*
+
 
 # Ignore Drush configuration
 /.drush
