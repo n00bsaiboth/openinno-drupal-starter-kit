@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /.circleci/
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /doc/
+Disallow: /sql/
