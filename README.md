@@ -31,16 +31,21 @@ Congratulations, you have a fresh D10 installation to play with.
 
 ## Run project on actual LAMP-server
 
+Basically you can run this on your webserver, straight away.
+
 There are few things that you need to consider:
 - Make sure that your LAMP-stack is up to date.
 - If composer gives you an error, that it can't find some `PHP extensions`, make sure that you have installed them.
-- You might need to `unzip` the `database dump`, found in the `/sql` folder, before you import it.
+- You might need to `unzip` the `database dump`, found in the `/sql` folder, before you import it. You can use this command to do the trick `gzip -dk file.gz`. 
 - Change the `database credentials` from the `settings.php` file.
+- Set up your `apache configs` and `user permissions` right.
 
 If you think that everything is set and you get an error like this, 
 `Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". `
 Try run `composer install` with `--ignore-platform-reqs`.
 
-Also noticed, that the site is giving you a lot of warnings, something like, `Warning: mkdir(): Permission denied in..`, so you might need to create the files folder under `sites/default/` and `chmod` that to `777`.
+Also noticed, that the site is giving you a lot of warnings, something like, `Warning: mkdir(): Permission denied in..`, so you might need to create the `files` folder under `sites/default/` and `chmod` that to `777`.
 
-This is not the bullet proof way to do it, but it's working. You can find the working demo from here, [openinnovations | dev/test](http://openinnovations.ddns.net:2224/). 
+This is not the bullet proof way to do it, but it's working. You can find the "working" demo from here, [openinnovations | test](https://openinnovations.ddns.net:2225/). 
+
+If you are wondering about the strange URL, I don't blame you. It's `dynamic DNS` combined with the `NoIP`-thingy. No worries! Just for you, I added an `SSL`-certificate to it, so you're safe. BTW: Welcome to my living room and the world of `Raspberry Pi`.
