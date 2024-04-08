@@ -34,10 +34,12 @@ Congratulations, you have a fresh D10 installation to play with.
 There are few things that you need to consider:
 - Make sure that your LAMP-stack is up to date
 - If composer gives you an error, that it can't find some `PHP extensions`, make sure that you have installed them.
-- You might need to unzip the database dump, found in the /sql folder .
+- You might need to `unzip` the `database dump`, found in the `/sql` folder .
 
 If you think that everything is set and you get an error like this, 
 `Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". `
-Try run composer install with `--ignore-platform-reqs`.
+Try run `composer install` with `--ignore-platform-reqs`.
 
-Also noticed, that the site is giving you a lot of warnings, so you might need to create the files folder under `sites/default/` and `chmod` that to `777` .
+Also noticed, that the site is giving you a lot of warnings, so you might need to create the files folder under `sites/default/` and `chmod` that to `777`.
+
+You can find the working demo from here, [openinnovations | dev/test](http://openinnovations.ddns.net:2224/). 
