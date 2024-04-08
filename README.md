@@ -9,7 +9,7 @@ About docker, you can have some information [here](https://docs.docker.com/engin
 For Lando, the documentation has been changed, but basically what you need to do is to go [here](https://github.com/lando/lando/releases) and download this [file](https://github.com/lando/lando/releases/download/v3.21.0-beta.11/lando-x64-v3.21.0-beta.11.deb), so you get the latest version of Lando. 
 
 ### What to do next
-Clone the project on your local, run this command on your termimal, git clone git@github.com:n00bsaiboth/openinno-drupal-starter-kit.git . 
+Clone the project on your local, run this command on your terminal, `git clone git@github.com:n00bsaiboth/openinno-drupal-starter-kit.git` . 
 
 Then, when you get docker and lando up and running, you need to give it the following commands, 
 
@@ -28,3 +28,16 @@ Then, when you get docker and lando up and running, you need to give it the foll
 `lando drush cr` .
 
 Congratulations, you have a fresh D10 installation to play with.
+
+## Run project on actual LAMP-server
+
+There are few things that you need to consider:
+- Make sure that your LAMP-stack is up to date
+- If composer gives you an error, that it can't find some `PHP extensions`, make sure that you have installed them.
+- You might need to unzip the database dump, found in the /sql folder .
+
+If you think that everything is set and you get an error like this, 
+`Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". `
+Try run composer install with `--ignore-platform-reqs`.
+
+Also noticed, that the site is giving you a lot of warnings, so you might need to create the files folder under `sites/default/` and `chmod` that to `777` .
