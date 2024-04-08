@@ -42,4 +42,4 @@ Try run `composer install` with `--ignore-platform-reqs`.
 
 Also noticed, that the site is giving you a lot of warnings, so you might need to create the files folder under `sites/default/` and `chmod` that to `777`.
 
-You can find the working demo from here, [openinnovations dev/test](http://openinnovations.ddns.net:2224/). 
+You can find the working demo from here, [openinnovations | dev/test](http://openinnovations.ddns.net:2224/). 
