@@ -45,7 +45,3 @@ If you think that everything is set and you get an error like this,
 Try run `composer install` with `--ignore-platform-reqs`.
 
 Also noticed, that the site is giving you a lot of warnings, something like, `Warning: mkdir(): Permission denied in..`, so you might need to create the `files` folder under `sites/default/` and `chmod` that to `777`.
-
-This is not the bullet proof way to do it, but it's working. You can find the "working" demo from here, [openinnovations | test](https://openinnovations.ddns.net:2225/). 
-
-If you are wondering about the strange URL, I don't blame you. It's `dynamic DNS` combined with the `NoIP`-thingy. No worries! Just for you, I added an `SSL`-certificate to it, so you're safe. BTW: Welcome to my living room and the world of `Raspberry Pi`.
